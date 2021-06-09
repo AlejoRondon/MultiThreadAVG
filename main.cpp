@@ -83,7 +83,6 @@ void sumArr2(int* arr, int start, int end) {
 
 //-----------------------------------------   MAIN   -----------------------------------------------
 int main() {
-  std::cout << "Hola alejo" << std::endl;
   //Creating a random array
   int* arr = create_random_data_array(ARRAY_LENGTH, 0, 1000);
 
@@ -172,16 +171,4 @@ int main() {
 //   //Array to vector https://stackoverflow.com/questions/2923272/how-to-convert-vector-to-array
 //   std::copy(v.begin(), v.end(), arr);
 
-//   return arr;
-// }
-
-
-// auto ta = std::chrono::steady_clock::now(); //first time_point
-// //----------------------------------------------------------------------------------------
-// for(int i = 0; i < ARRAY_LENGTH; i++) std::cout << "[" << i << "]" << arr[i] << std::endl;
-// //----------------------------------------------------------------------------------------
-// auto tb = std::chrono::steady_clock::now(); //second time_point
-// auto d_us = std::chrono::duration_cast<std::chrono::microseconds>(tb-ta).count();
-// //converting to microseconds
-// std::cout << "Execution duration: " << d_us << " microseconds " << std::endl;
-
+//   return arr;git
